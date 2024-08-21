@@ -1,13 +1,12 @@
 package _J_14_02_Array_List_Parthasarthy;
 
-import org.openqa.selenium.By;
+import java.util.ArrayDeque;
+import java.util.Deque;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
-import java.util.ArrayDeque;
-import java.util.Deque;
 
 
 public class Deque_ChatGPT {

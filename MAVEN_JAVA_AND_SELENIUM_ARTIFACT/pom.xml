@@ -3,13 +3,18 @@
   <groupId>MAVEN_JAVA_AND_SELENIUM_GROUP</groupId>
   <artifactId>MAVEN_JAVA_AND_SELENIUM_ARTIFACT</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-    
-    
+  ///----------------------SELENIUM------------------------------------
 <dependencies>
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-chrome-driver</artifactId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.23.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-support</artifactId>
     <version>4.23.1</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
@@ -18,22 +23,93 @@
     <artifactId>selenium-remote-driver</artifactId>
     <version>4.23.1</version>
 </dependency>
-
+<!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api  -->
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-api</artifactId>
+<version>4.23.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.9.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-support</artifactId>
+    <version>4.23.1</version>
+</dependency>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-firefox-driver</artifactId>
     <version>4.23.1</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-remote-driver</artifactId>
+    <artifactId>selenium-chrome-driver</artifactId>
     <version>4.23.1</version>
 </dependency>
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-edge-driver</artifactId>
+<version>4.23.1</version>
+</dependency>
+<!--  https://mvnrepository.com/artifact/org.testng/testng  -->
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>7.10.2</version>
+</dependency>
+<!--  https://mvnrepository.com/artifact/io.cucumber/cucumber-testng  -->
+<dependency>
+<groupId>io.cucumber</groupId>
+<artifactId>cucumber-testng</artifactId>
+<version>7.18.1</version>
+</dependency>
+<!--  https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl  -->
+<dependency>
+<groupId>net.sourceforge.jexcelapi</groupId>
+<artifactId>jxl</artifactId>
+<version>2.6.12</version>
+</dependency>
+<!--  https://mvnrepository.com/artifact/commons-io/commons-io  -->
+<dependency>
+<groupId>commons-io</groupId>
+<artifactId>commons-io</artifactId>
+<version>2.16.1</version>
+</dependency>
+<!--  https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api  -->
+<dependency>
+<groupId>org.junit.jupiter</groupId>
+<artifactId>junit-jupiter-api</artifactId>
+<version>5.11.0</version>
+<scope>test</scope>
+</dependency>
+<!--  https://mvnrepository.com/artifact/junit/junit  -->
+<dependency>
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>4.13.2</version>
+<scope>test</scope>
+</dependency>
 
+<!-- https://mvnrepository.com/artifact/tech.habegger.assertj/assertj-jackson -->
+<dependency>
+    <groupId>tech.habegger.assertj</groupId>
+    <artifactId>assertj-jackson</artifactId>
+    <version>0.1.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.ultreia.java4all/java-util -->
+<dependency>
+    <groupId>io.ultreia.java4all</groupId>
+    <artifactId>java-util</artifactId>
+    <version>1.2.1</version>
+</dependency>
 
 </dependencies>
-    
-    
+
 </project>

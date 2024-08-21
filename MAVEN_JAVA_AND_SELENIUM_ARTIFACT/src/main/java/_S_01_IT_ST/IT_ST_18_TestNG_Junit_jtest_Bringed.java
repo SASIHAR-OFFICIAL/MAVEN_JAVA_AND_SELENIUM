@@ -1,18 +1,18 @@
 package _S_01_IT_ST;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.testng.Assert.fail;
 
 import java.util.concurrent.TimeUnit;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
 
 class IT_ST_18_TestNG_Junit_jtest_Bringed {
 	WebDriver d;
-	@Before
+@BeforeClass
 	void open() 
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");

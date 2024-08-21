@@ -1,7 +1,8 @@
 package _S_05_24_Assert;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
